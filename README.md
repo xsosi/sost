@@ -4,7 +4,7 @@
 
 - A First Telegram Userbot Project With Multi Clients Based On PyroGram
 
-<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://graph.org/file/685c7da88a076ee6b61c7.jpgr">
+<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://graph.org/file/685c7da88a076ee6b61c7.jpg">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
 ## Repo Stats
