@@ -1,16 +1,15 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">𝐙𝐚𝐢𝐝 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 🔥 </p>
+<p align="center">POISON USERBOT 🚩🔥 </p>
 
 - A First Telegram Userbot Project With Multi Clients Based On PyroGram
 
-<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://telegra.ph/file/723d8ef9fb7e721135221.jpg" width="300"></a></p>
-<p align="center">
+<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://graph.org/file/685c7da88a076ee6b61c7.jpgr">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
 ## Repo Stats
 
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=ITZ-ZAID&repo=ZAID-USERBOT&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Rajpomane&repo=ZAID-USERBOT&theme=dark)
 
 
 ## Requirements 
@@ -29,7 +28,7 @@
 
 ᴛᴏ ʙᴇ ꜱᴀꜰᴇ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ ᴀɴᴅ ᴛʜᴇɴ ᴘʀᴇꜱꜱ ᴅᴇᴘʟᴏʏ ʙᴜᴛᴛᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ꜰᴏʀᴋᴇᴅ ʀᴇᴘᴏ 
 
-[ꜰᴏʀᴋ ᴅᴇᴘʟᴏʏ ɪꜱ ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅᴇᴅ](https://telegra.ph/file/5bcf79f948ca06030640c.mp4)
+[ꜰᴏʀᴋ ᴅᴇᴘʟᴏʏ ɪꜱ ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅᴇᴅ](https://graph.org/file/685c7da88a076ee6b61c7.jpg)
 
 <p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/Rajpomane/Zaid-Userbot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
