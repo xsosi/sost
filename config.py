@@ -13,12 +13,14 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = int(getenv("OWNER_ID"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
-ALIVE_TEXT = getenv("ALIVE_TEXT")
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/685c7da88a076ee6b61c7.jpg')
+ALIVE_TEXT = getenv("मैं जरा ठहर  क्या गया लोग मुझे चलना सिखा रहे है
+देखो ये कल की चिंगारियों को ये आग को जलना सिखा रहे है !!
+#poison#Toxic#dangerous_op systmmmmmm hang 🔥🖤🔥#𝑮𝒐𝒅 𝒇𝒂𝒕𝒉𝒆𝒓 𝒐𝒇 𝒂𝒍𝒍 𝒄𝒍𝒂𝒏🍁𝑶𝒘𝒏𝒆𝒓 𝒐𝒇 :- @Dangerous_fighter_channel")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/Rajpomane/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
