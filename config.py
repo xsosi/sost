@@ -14,9 +14,7 @@ OWNER_ID = int(getenv("OWNER_ID"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/685c7da88a076ee6b61c7.jpg')
-ALIVE_TEXT = getenv("मैं जरा ठहर  क्या गया लोग मुझे चलना सिखा रहे है
-देखो ये कल की चिंगारियों को ये आग को जलना सिखा रहे है !!
-#poison#Toxic#dangerous_op systmmmmmm hang 🔥🖤🔥#𝑮𝒐𝒅 𝒇𝒂𝒕𝒉𝒆𝒓 𝒐𝒇 𝒂𝒍𝒍 𝒄𝒍𝒂𝒏🍁𝑶𝒘𝒏𝒆𝒓 𝒐𝒇 :- @Dangerous_fighter_channel")
+ALIVE_TEXT = getenv("")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
