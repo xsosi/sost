@@ -15,7 +15,7 @@ async def pingme(client: Client, message: Message):
     await xx.edit("**80% ████████▒▒ 🚩😈Hᴀʀ ʜᴀʀ ᴍᴀʜᴀᴅᴇᴠ**")
     await xx.edit("**100% ████████▒▒ 🚩Jᴀɪ sʜʀᴇᴇ ʀᴀᴍ🚩**")
     end = datetime.now()
-    duration = (end - start).microseconds / 1000
+    duration = (end - start).microseconds / 100
     await xx.edit(
         f"🚩🕉️ **🔥🖤ᴘᴏɪsᴏɴ ᴛᴏxɪᴄ ᴅᴏ ᴅɪʟ ᴇᴋ ᴊᴀᴀɴ🔥🖤**\n"
         f"❏ **🚩😈ᴘᴏɪsᴏɴ ʙᴏᴛ ғɪʀᴇ ᴏɴ😈🚩**\n"
