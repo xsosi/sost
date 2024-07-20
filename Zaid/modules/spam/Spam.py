@@ -113,33 +113,43 @@ async def spam_stick(client: Client, message: Message):
         return await message.reply_text(
             "**This command is not allowed to be used in this group**"
         )
+    
     if not message.reply_to_message:
         await message.reply_text(
-            "**reply to a sticker with amount you want to spam**"
+            "**Reply to a sticker with the amount and delay you want to spam**"
         )
         return
+
     if not message.reply_to_message.sticker:
         await message.reply_text(
-            "**reply to a sticker with amount you want to spam**"
+            "**Reply to a sticker with the amount and delay you want to spam**"
         )
         return
-    else:
-        i = 0
-        times = message.command[1]
-        if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-            for i in range(int(times)):
-                sticker = message.reply_to_message.sticker.file_id
-                await client.send_sticker(
-                    message.chat.id,
-                    sticker,
-                )
-                await asyncio.sleep(0.10)
+    
+    args = message.command[1:]
+    if len(args) < 2 or not args[0].isdigit() or not args[1].isdigit():
+        await message.reply_text("`Something seems missing / wrong. Please provide the amount and delay.`")
+        return
+    
+    times = int(args[0])
+    delay = float(args[1])
+    sticker = message.reply_to_message.sticker.file_id
 
-        if message.chat.type == enums.ChatType.PRIVATE:
-            for i in range(int(times)):
-                sticker = message.reply_to_message.sticker.file_id
-                await client.send_sticker(message.chat.id, sticker)
-                await asyncio.sleep(0.10)
+    if not spam_allowed():
+        return
+    
+    await message.delete()
+
+    for i in range(times):
+        await client.send_sticker(message.chat.id, sticker)
+        await asyncio.sleep(delay)
+        limit = increment_spam_count()
+        if not limit:
+            break
+
+    await client.send_message(
+        LOG_GROUP, "**#STICKERSPAM**\nSticker spam was executed successfully"
+    )
 
 
 add_command_help(
