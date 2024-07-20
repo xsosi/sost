@@ -6,4 +6,5 @@ RUN python3 -m pip install --upgrade pip
 COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U -r requirements.txt
+EXPOSE 8085
 CMD ["bash","start.sh"]
