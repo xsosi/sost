@@ -18,7 +18,7 @@ ALIVE_TEXT = getenv("")
 PM_LOGGER = int(os.getenv("PM_LOGGER", -1002190434921))
 LOG_GROUP = int(os.getenv("LOG_GROUP", -1002190434921))
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/Rajpomane/ZAID-USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/xsosi/sost")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
